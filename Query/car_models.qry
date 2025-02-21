@@ -1,0 +1,21 @@
+{
+	"name": "car_models",
+	"desc": "쿼리 설명",
+	"queryType": "쿼리 타입",
+	"input": {
+		"InBlock1": {
+			"format": [
+				["제조사","user_made","","","char",10,4]
+			]
+		}
+	},
+	"output": {
+		"OutBlock1": {
+			"format": [
+				["제조사","made","","","char",10,4],
+				["모델명","model","","","char",10,4],
+				["차량사진","pic","","","char",10,4]
+			]
+		}
+	}
+}

@@ -1,0 +1,581 @@
+
+
+/************************************************************************************/
+/*	Component Default Style 														*/
+/************************************************************************************/
+.AFileUploader-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	overflow: hidden;
+	background-color:rgb(255, 255, 255);	
+}
+
+.AFileUploader-Style > div > div > input
+{
+	position: absolute;
+	box-sizing: border-box;
+	padding-left : 5px;
+	padding-right : 5px;
+	font-size: inherit;
+	width: 75%; 
+	height: 100%; 
+	left: 0px; 
+	top: 0px;
+	color: rgb(51, 51, 51);
+	background-color: transparent;
+	border-style: solid;
+	border-width: 1px;
+	border-color : rgb(217, 217, 217);	
+}
+
+.AFileUploader-Style > div > div > button
+{
+	position: absolute; 
+	width: 25%; 
+	height: 100%; 
+	top: 0px; 
+	right: 0px; 
+	background-color: transparent;
+	border-style: solid;
+	border-top-width: 1px;
+	border-top-color: rgb(217, 217, 217);
+	border-bottom-width: 1px;
+	border-bottom-color: rgb(217, 217, 217);	
+	border-right-width: 1px;
+	border-right-color: rgb(217, 217, 217);
+	/*font-size: 12px;*/
+}
+
+.APagingBar-Style
+{
+	position: absolute;
+	box-sizing: border-box;	
+	width: auto;
+	height: auto;
+}
+
+.APagingBar-Style > div > div
+{
+	display: flex;
+	display: -ms-flexbox;
+	align-content: flex-start;
+	-ms-flex-line-pack: start;
+    align-items: center;
+}
+
+.APagingBar-Style button
+{
+	position: relative;
+}
+
+.APagingBar-Style button.sign
+{
+    background-color: rgba(0,0,0,0);
+	background-position : center center;
+	background-repeat: no-repeat;
+	background-size: 18px 17px;
+	border: none;
+	color:rgba(0, 0, 0, 0);
+	padding:0 2px 0 2px;
+}
+
+.APagingBar-Style button.sign-left-def-over
+{
+	background-image: url('../image/page_prev_o.png');
+}
+
+.APagingBar-Style button.sign-left-def-down
+{
+	background-image: url('../image/page_prev_n.png');
+}
+
+.APagingBar-Style button.sign-left-def-disable
+{
+	background-image: url('../image/page_prev_n.png');
+}
+
+.APagingBar-Style button.sign-left2-def-over
+{
+	background-image: url('../image/page_first_o.png');
+}
+
+.APagingBar-Style button.sign-left2-def-down
+{
+	background-image: url('../image/page_first_n.png');
+}
+
+.APagingBar-Style button.sign-left2-def-disable
+{
+	background-image: url('../image/page_first_n.png');
+}
+
+.APagingBar-Style button.sign-right-def-over
+{
+	background-image: url('../image/page_next_o.png');
+}
+
+.APagingBar-Style button.sign-right-def-down
+{
+	background-image: url('../image/page_next_n.png');
+}
+
+.APagingBar-Style button.sign-right-def-disable
+{
+	background-image: url('../image/page_next_n.png');
+}
+
+.APagingBar-Style button.sign-right2-def-over
+{
+	background-image: url('../image/page_end_o.png');
+}
+
+.APagingBar-Style button.sign-right2-def-down
+{
+	background-image: url('../image/page_end_n.png');
+}
+
+.APagingBar-Style button.sign-right2-def-disable
+{
+	background-image: url('../image/page_end_n.png');
+}
+
+.APagingBar-Style button.number
+{
+    width: auto;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    padding: 0 5px 0 5px;
+	background-color: rgba(0,0,0,0);
+}
+
+/*
+.APagingBar-Style button.number-def-over
+{
+}
+
+.APagingBar-Style button.number-def-down
+{
+}
+
+.APagingBar-Style button.number-def-disable
+{
+}
+*/
+
+/*-------------------------------------------------------------*/
+
+.ACalendarPicker-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	overflow: visible;
+	background-color:inherit;
+	color: inherit;
+	border: none;
+	/*position: relative;*/
+}
+
+.ACalendarPicker-Style > button
+{
+	outline:none;
+}
+
+.ACalendarPicker-Style > button.Calendar_Button_Over
+{
+	background-image: url('../image/datepicker.png');
+	background-position : 8px center;
+	background-repeat: no-repeat;
+	background-size: 14px 14px;	
+	/*background-color:rgba(224,224,224,1);*/
+	background-color:inherit;
+	width: 30px; 
+	height: 100%; 
+	left: 0px; 
+	top: 0px; 
+	position: absolute;	
+	border: none;
+}
+
+.ACalendarPicker-Style > button.Calendar_Button_Down
+{
+	background-image: url('../image/datepicker.png');
+	background-position : 8px center;
+	background-repeat: no-repeat;
+	background-size: 14px 14px;	
+	background-color:inherit;
+	width: 30px; 
+	height: 100%; 
+	left: 0px; 
+	top: 0px; 
+	position: absolute;		
+	border: none;
+}
+
+.ACalendarPicker-Style > button.Calendar_Button_Disable
+{
+	background-image: url('../image/datepicker.png');
+	background-position : 8px center;
+	background-repeat: no-repeat;
+	background-size: 14px 14px;	
+	background-color:inherit;
+	width: 30px; 
+	height: 100%; 
+	left: 0px; 
+	top: 0px; 
+	position: absolute;		
+	border: none;
+}
+
+
+.ACalendarPicker-Style input {
+	width: calc((100% - 0px) - 30px);
+	padding-left: 0px;
+	/*padding-right: 8px;*/
+	background-color:inherit;
+	height: 100%; 
+	left: 30px; 
+	top: 0px; 
+	position: absolute;	
+	border: none;
+	/*border: 1px solid rgb(59, 88, 132);*/
+	/*border: 1px solid rgb(187, 187, 187);*/
+	text-align: inherit;
+	color: inherit;
+	outline:none;
+}
+
+
+.ACalendarMonthItem-Style {
+	font-family: '맑은고딕';
+	background-color:rgba(0, 0, 0, 0);
+}
+
+.ACalendarMonthItem-Style .CalendarView-Style {
+	width: 100%; 
+	height: auto; 
+	left: 0px; 
+	bottom: 0px; 
+	position: relative;
+	padding: 25px;
+	background-color:rgba(255, 255, 255, 1);
+	border: 1px solid rgb(187, 187, 187);
+}
+
+.ACalendarMonthItem-Style .HeadView-Style {
+	width: 100%; 
+	position: relative; 
+	background-color: rgba(0, 0, 0, 0); 
+	padding-left: 0px; 
+	padding-right: 0px; 
+	left: 0px; 
+	margin:auto;
+	margin-bottom: 10px;
+}
+
+.ACalendarMonthItem-Style button {
+	border: none;
+	width:25px;
+	height:25px;
+	background: rgb(255, 255, 255);
+	font-family: '맑은고딕';
+	outline:none;
+}
+
+.ACalendarMonthItem-Style button.Left_Arrow {
+	left: 0px; 
+	top: 0px; 
+	position: relative;
+	background-image: url('../image/scroll_left_arrow.png');
+	background-position : center center;
+	background-repeat: no-repeat;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+}
+
+.ACalendarMonthItem-Style button.Right_Arrow {
+	top: 0px; 
+	left: 0px;
+	position: relative;
+	background-image: url('../image/scroll_right_arrow.png');
+	background-position : center center;
+	background-repeat: no-repeat;
+	/*background-size: 5px 8px;*/
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+}
+
+.ACalendarMonthItem-Style button.Left_Arrow2 {
+	left: 0px; 
+	top: 0px; 
+	position: relative;
+	background-image: url('../image/scroll_left_arrow.png');
+	background-position : center center;
+	background-repeat: no-repeat;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+}
+
+.ACalendarMonthItem-Style button.Right_Arrow2 {
+	top: 0px; 
+	left: 0px;
+	position: relative;
+	background-image: url('../image/scroll_right_arrow.png');
+	background-position : center center;
+	background-repeat: no-repeat;
+	background-size: 5px 8px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+}
+
+.ACalendarMonthItem-Style button.YearBtn-Style {
+	width: 100%; 
+	left: 0px;
+	top: 0px; 
+	position: relative; 
+	margin-top: 1px;
+	background-color: rgba(0, 0, 0, 0);
+	font-family: '맑은고딕';
+	font-weight:bold;
+}
+
+.ACalendarMonthItem-Style .ListGrid-Style {
+	background-color: rgb(0, 0, 0, 0);
+}
+
+.ACalendarMonthItem-Style .ListGrid-header-table {
+	width: unset;
+}
+.ACalendarMonthItem-Style .ListGrid-body-table {
+	width: unset;
+}
+
+.ACalendarMonthItem-Style col {
+	width:36px;
+}
+
+.ACalendarMonthItem-Style td {
+	height:36px;
+	border: none;
+}
+
+.ACalendarMonthItem-Style td.agrid_select {
+	background-color: rgb(59, 88, 132);
+	color: rgb(255, 255, 255);
+}
+
+.ACalendarMonthItem-Style thead {
+	background-color: rgb(255, 255, 255);
+	color: rgb(59, 88, 132);
+}
+
+.ACalendarMonthItem-Style tbody {
+	color: rgb(51, 51, 51);
+}
+
+.ACalendarItem-Style {
+	font-family: '맑은고딕';
+	background-color:rgba(0, 0, 0, 0);
+}
+
+.ACalendarItem-Style .CalendarView-Style {
+	width: 100%; 
+	height: auto; 
+	left: 0px; 
+	bottom: 0px; 
+	position: relative;
+	padding: 25px;
+	background-color:rgba(255, 255, 255, 1);
+	border: 1px solid rgb(187, 187, 187);
+}
+
+.ACalendarItem-Style .HeadView-Style {
+	width: 100%; 
+	position: relative; 
+	background-color: rgba(0, 0, 0, 0); 
+	padding-left: 0px; 
+	padding-right: 0px; 
+	left: 0px; 
+	margin:auto;
+	margin-bottom: 10px;
+}
+
+.ACalendarItem-Style button {
+	border: none;
+	width:25px;
+	height:25px;
+	background: rgb(255, 255, 255);
+	outline:none;
+}
+
+.ACalendarItem-Style button.Left_Arrow {
+	left: 0px; 
+	top: 0px; 
+	position: relative;
+	background-image: url('../image/scroll_left_arrow.png');
+	background-position : center center;
+	background-repeat: no-repeat;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+}
+
+.ACalendarItem-Style button.Right_Arrow {
+	top: 0px; 
+	left: 0px;
+	position: relative;
+	background-image: url('../image/scroll_right_arrow.png');
+	background-position : center center;
+	background-repeat: no-repeat;
+	/*background-size: 5px 8px;*/
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+}
+
+.ACalendarItem-Style button.Left_Arrow2 {
+	left: 0px; 
+	top: 0px; 
+	position: relative; 
+	margin-right: 4px;
+
+	background-image: url('../image/scroll_left_arrow2.png');
+	background-position : center center;
+	background-repeat: no-repeat;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+}
+
+.ACalendarItem-Style button.Right_Arrow2 {
+	left: 0px;
+	top: 0px; 
+	position: relative; 
+	margin-left: 4px;
+
+	background-image: url('../image/scroll_right_arrow2.png');
+	background-position : center center;
+	background-repeat: no-repeat;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+}
+
+.ACalendarItem-Style button.MonthBtn-Style {
+	width: 100%; 
+	left: 0px;
+	top: 0px; 
+	position: relative; 
+	margin-top: 1px;
+	background-color: rgba(0, 0, 0, 0);
+	font-family: '맑은고딕';
+	font-weight:bold;
+}
+
+
+.ACalendarItem-Style .HeadGrid-header-table {
+	width: unset;
+}
+.ACalendarItem-Style .ListGrid-header-table {
+	width: unset;
+}
+.ACalendarItem-Style .HeadGrid-body-table {
+	width: unset;
+}
+.ACalendarItem-Style .ListGrid-body-table {
+	width: unset;
+}
+
+.ACalendarItem-Style col {
+	width:25px;
+}
+
+.ACalendarItem-Style td {
+	height:25px;
+	border: none;
+}
+
+.ACalendarItem-Style .HeadGrid-Style {
+	background-color: rgb(0, 0, 0, 0);
+}
+
+.ACalendarItem-Style .ListGrid-Style {
+	background-color: rgb(0, 0, 0, 0);
+}
+
+.ACalendarItem-Style .HeadGrid-Style td {
+	color: rgb(59, 88, 132);
+}
+
+.ACalendarItem-Style .HeadGrid-Style td:first-child {
+	color:#e41515;
+}
+
+.ACalendarItem-Style .HeadGrid-Style td:last-child {
+	color:#0e70d7;
+}
+
+.ACalendarItem-Style .ListGrid-Style td:first-child {
+	color:#e41515;
+}
+
+.ACalendarItem-Style .ListGrid-Style td:last-child {
+	color:#0e70d7;
+}
+
+.ACalendarItem-Style td.agrid_select {
+	background-color: rgb(59, 88, 132);
+	color: rgb(255, 255, 255);
+}
+.ACalendarItem-Style td.agrid_select:first-child {
+	color: rgb(255, 255, 255);
+}
+.ACalendarItem-Style td.agrid_select:last-child {
+	color: rgb(255, 255, 255);
+}
+
+.ACalendarItem-Style thead {
+	background-color: rgb(255, 255, 255);
+	color: rgb(59, 88, 132);
+}
+
+.ACalendarItem-Style tbody {
+	color: rgb(51, 51, 51);
+}
+
+/*-------------------------------------------------------------*/
+
+.AFlowOneLine-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    border: 0px solid;
+}
+
+.AFlowTwoLine-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    border: 0px solid;
+}
+
+.AFlowThreeLine-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    border: 0px solid;
+}
