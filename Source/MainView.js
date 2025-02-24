@@ -77,6 +77,12 @@ MainView = class MainView extends AView
         { company : "hyundai", name : "베뉴", pic : "Assets/carLogos/hyundai/venupng.png"},
         { company : "hyundai", name : "아반떼", pic : "Assets/carLogos/hyundai/avante.png"},
         { company : "hyundai", name : "캐스퍼", pic : "Assets/carLogos/hyundai/casper.png"},
+        // ----------------------------현대화물----------------------------------
+        { company : "hyundaiTruck", name : "더 뉴 마이티", pic : "https://www.hyundai.com/contents/repn-car/side-w/290x130-mighty.png", year : {
+            '전체' : {
+                pic : "https://www.hyundai.com/contents/repn-car/side-w/290x130-mighty.png"
+            }
+        }},
 
         // ----------------------------기아----------------------------------
         { company : "kia", name : "스포티지", pic : "Assets/carLogos/kia/sportge.png"},
@@ -246,6 +252,13 @@ MainView = class MainView extends AView
         }.bind(this))
 
 	}
+
+    ontruckBtnClick(comp, infe, e) {
+        this.introView.$ele.fadeTo(1000,0, function() {
+            this.introView.hide()
+            this.truckView.$ele.fadeTo(1000,1)
+        }.bind(this))
+    }
 
 
     // ------------------------뒤로가기 버튼---------------------------------------
@@ -461,6 +474,27 @@ MainView = class MainView extends AView
 
 
 	}
+
+
+     // --------------------------화물차 클릭 -------------------------------------------
+    onHyundaiTruckClick(comp, info, e)
+	{
+		//TODO:edit here
+		this.truckView.$ele.fadeTo(1000,0, function() {
+            this.truckView.hide()
+            this.modelView.$ele.fadeTo(1000,1)
+
+            this.modelListView.removeAllItems()
+            this.carModels
+                .filter(item => item.company == 'hyundaiTruck')
+                .forEach(item => {
+                this.modelListView.addItem('Source/items/carModelList.lay', [item]); // 각 데이터를 아이템으로 추가
+            });
+        }.bind(this))
+
+
+	}
+
 
     // ------------------------------------------------------------------------------------
     onCarModelClick(data)
