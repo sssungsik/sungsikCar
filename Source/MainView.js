@@ -10,8 +10,11 @@ MainView = class MainView extends AView
        this.carModels = [
 
         // ----------------제네시스--------------------------
+        
+        /*
         { company : "genesis", name : "EQ900L", pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20210524_21%2Fauto_1621816203059aFjc0_PNG%2F20210524092812_UMfkVcKB.png"},
         { company : "genesis", name : "EQ900", pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20210524_153%2Fauto_1621816491077bS1tu_PNG%2F20210524093427_JigfANZf.png"},
+        */
         { company : "genesis", name : "G90 LWB", pic : "Assets/carLogos/genesis/aaa.png", year : { 
             2019 : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200128_56%2Fauto_1580191033736FMpg9_PNG%2F20200128145711_ROl9jcAR.png"}, 
@@ -40,28 +43,29 @@ MainView = class MainView extends AView
             }, 2024 : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240321_37%2Fauto_1710985403628e0sDy_PNG%2F20240321104315_nN8nvjKl.png"
             }        }},
+        /*
         { company : "genesis", name : "GV80 쿠페", pic : "Assets/carLogos/genesis/gv80co.png"},
         { company : "genesis", name : "GV80", pic : "Assets/carLogos/genesis/gv80.png"},
         { company : "genesis", name : "G80 일렉트리파이드", pic : "Assets/carLogos/genesis/G80ele.png"},
+        */
         { company : "genesis", name : "G80", pic : "Assets/carLogos/genesis/g80.png", year : { 
-            2019 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200128_56%2Fauto_1580191033736FMpg9_PNG%2F20200128145711_ROl9jcAR.png"}, 
-            2020 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20201214_243%2Fauto_1607924362360bd3y4_PNG%2F20201214143907_dlc866GD.png"},
-            2021 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200626_70%2Fauto_1593151681603D2PSa_PNG%2F20200626150700_huPUOjhS.png"},
-            2022 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20211214_182%2Fauto_163944496799798by8_PNG%2F20211214102237_s8eSKKgG.png"
-            }, 2023 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230324_160%2Fauto_1679619181182yY3SC_PNG%2F20230324095253_Je3OVM6Z.png"
-            }, 2024 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240321_124%2Fauto_1710984884107Qk75x_PNG%2F20240321103437_U1QpcxoH.png"
-            }        }},
+            '2016~2019' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190926_131%2Fauto_1569458635496zLM6t_PNG%2F20190926094353_y8rpMJnB.png"
+            },
+            '2020~2023' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20221025_292%2Fauto_1666673748189LmvuP_PNG%2F20221025135539_1Xe2RUJ8.png"
+            },
+            '2024~2025' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20250108_244%2Fauto_1736299553101HbvpA_PNG%2F20250108102545_hoQ92ZMp.png"
+            }     
+            }},
+        /*    
         { company : "genesis", name : "GV70 일렉트리파이드", pic : "Assets/carLogos/genesis/gv70ele.png"},
         { company : "genesis", name : "GV70", pic : "Assets/carLogos/genesis/gv70.png"},
         { company : "genesis", name : "G70", pic : "Assets/carLogos/genesis/g70.png"},
         { company : "genesis", name : "G70 슈팅브레이크", pic : "Assets/carLogos/genesis/g70st.png"},
         { company : "genesis", name : "GV60", pic : "Assets/carLogos/genesis/gv60.png"},
+        */
 
 
         // ----------------------------현대----------------------------------
@@ -106,7 +110,9 @@ MainView = class MainView extends AView
         { company : "ssang", name : "티볼리", pic : "Assets/carLogos/ssang/tivol.png"},
 
         // ----------------------------롤스로이스----------------------------------
+        /*
         { company : "rolls", name : "팬텀 EWB", pic : "Assets/carLogos/rolls/phantomEWB.png"},
+        */
         { company : "rolls", name : "팬텀", pic : "Assets/carLogos/rolls/phantom.png", year : {
             2003 : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190926_99%2Fauto_1569472201898zccHt_PNG%2F20190926133000_USpiIqyU.png"
@@ -124,15 +130,19 @@ MainView = class MainView extends AView
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20221125_198%2Fauto_1669344146553I2Nki_PNG%2F20221125114217_eFl3hRkq.png"
             }
         }},
+        /*
         { company : "rolls", name : "컬리넌 블랙배지", pic : "Assets/carLogos/rolls/culiBlack.png"},
         { company : "rolls", name : "컬리넌", pic : "Assets/carLogos/rolls/culi.png"},
         { company : "rolls", name : "스펙터", pic : "Assets/carLogos/rolls/spector.png"},
         { company : "rolls", name : "고스트 블랙배지", pic : "Assets/carLogos/rolls/ghostBlack.png"},
         { company : "rolls", name : "고스트 EWB", pic : "Assets/carLogos/rolls/ghostEWB.png"},
         { company : "rolls", name : "고스트", pic : "Assets/carLogos/rolls/ghost.png"},
+        */
 
         // ----------------------------테슬라----------------------------------
+        /*
         { company : "tsla", name : "모델X", pic : "Assets/carLogos/tsla/x.png"},
+        */
         { company : "tsla", name : "모델S", pic : "Assets/carLogos/tsla/s.png", year : {
             2013 : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20210122_185%2Fauto_1611295242221FzYQ3_PNG%2F20210122150040_1bTfzMPP.png"
@@ -156,7 +166,9 @@ MainView = class MainView extends AView
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240404_155%2Fauto_1712193229054r5Iq4_PNG%2F20240404101339_05U15rsA.png"
             }
         }},
+        /*
         { company : "tsla", name : "모델3", pic : "Assets/carLogos/tsla/3.png"}
+        */
   
        ]
 
@@ -167,7 +179,7 @@ MainView = class MainView extends AView
 		super.init(context, evtListener)
 
 		//TODO:edit here
-
+        this.modellistView2.$ele.parent().css('overflow', 'auto')
 	}
 
 	onInitDone()
@@ -460,6 +472,8 @@ MainView = class MainView extends AView
             this.carYearImage.setImage(data.pic)
 
             console.log(data)
+
+            this.yearlistView.$ele.parent().css('overflow', 'auto')
 
             this.yearData = Object.entries(data.year).map(([year, data]) => {
                 return { year: year, pic: data.pic };
