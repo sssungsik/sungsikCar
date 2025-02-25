@@ -37,3 +37,14 @@
           filter: brightness(70%) invert(1) !important;
 }
 
+.chatBtn
+{
+    filter: brightness(70%) invert(1) !important;
+    opacity: 0.7 !important;
+}
+
+.border-none
+{
+    border: none !important;
+}
+

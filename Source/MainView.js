@@ -69,14 +69,69 @@ MainView = class MainView extends AView
 
 
         // ----------------------------현대----------------------------------
+        /*
         { company : "hyundai", name : "투싼", pic : "Assets/carLogos/hyundai/tusan.png"},
         { company : "hyundai", name : "스타리아", pic : "Assets/carLogos/hyundai/staria.png"},
-        { company : "hyundai", name : "아반떼 하이브리드", pic : "Assets/carLogos/hyundai/avantehy.png"},
+        */
+        { company : "hyundai", name : "아반떼", pic : "Assets/carLogos/hyundai/avante.png", year : {
+            '더 뉴 아반떼 N' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240620_283%2Fauto_1718854576553nXdge_PNG%2F20240620123603_KZq5T8bH.png"
+            },
+            '더 뉴 아반떼CN7 하이브리드' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240620_44%2Fauto_1718855782188YnQsc_PNG%2F20240620125612_Qn89gP75.png"
+            },
+            '더 뉴 아반떼CN7' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240620_28%2Fauto_1718855596130QOJmC_PNG%2F20240620125307_7lHTuB3f.png"
+            },
+            '아반떼 N' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230726_192%2Fauto_1690333112161X0PjQ_PNG%2F20230726095821_A52Adpb2.png"
+            },
+            '아반떼CN7 하이브리드' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230313_290%2Fauto_1678670204982c6Ipw_PNG%2F20230313101636_SDg346JM.png"
+            },
+            '아반떼CN7' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230227_141%2Fauto_16774720478768lEh4_PNG%2F20230227132719_LRVXZYqG.png"
+            },
+            '더 뉴 아반떼AD' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190827_234%2Fauto_1566888481406l1Sjj_PNG%2F20190827154759_ARghztls.png"
+            },
+            '아반떼AD' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200326_122%2Fauto_1585186654163tBc2B_PNG%2F20200326103724_lOI3t1Ek.png"
+            },
+            '더 뉴 아반떼MD' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_204%2Fauto_1577754557329zPpEi_PNG%2F20191231100915_rGueCGgf.png"
+            },
+            '아반떼MD' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170529_203%2Fauto_1496048340535qcU4A_PNG%2F18435_2013_.png"
+            },
+            '아반떼HD 하이브리드' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200813_18%2Fauto_1597285407948xNHLf_PNG%2F20200813112326_JLfYj24I.png"
+            },
+            '아반떼HD' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170530_146%2Fauto_1496110846839Bc10R_PNG%2F10253_2010_.png"
+            },
+            '뉴 아반떼XD' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_16%2Fauto_1497939473146E2BgJ_PNG%2F11239_2008_HD.png"
+            },
+            '아반떼XD' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_205%2Fauto_1497939454053TujKI_PNG%2F12468_2006_XD_.png"
+            },
+            '올 뉴 아반떼' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_34%2Fauto_15777562220909kQ0x_PNG%2F20191231103644_PfrGIyD2.png"
+            },
+            '아반떼' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_44%2Fauto_1577755415630KI2Nr_PNG%2F20191231102333_c7r4oTd6.png"
+            },
+
+
+        }},
+        /*
         { company : "hyundai", name : "코나", pic : "Assets/carLogos/hyundai/kona.png"},
         { company : "hyundai", name : "포터2", pic : "Assets/carLogos/hyundai/poter.png"},
         { company : "hyundai", name : "베뉴", pic : "Assets/carLogos/hyundai/venupng.png"},
         { company : "hyundai", name : "아반떼", pic : "Assets/carLogos/hyundai/avante.png"},
         { company : "hyundai", name : "캐스퍼", pic : "Assets/carLogos/hyundai/casper.png"},
+        */
         // ----------------------------현대화물----------------------------------
         { company : "hyundaiTruck", name : "더 뉴 마이티", pic : "https://www.hyundai.com/contents/repn-car/side-w/290x130-mighty.png", year : {
             '전체' : {
@@ -199,6 +254,7 @@ MainView = class MainView extends AView
                this.mainView.$ele.fadeTo(1000, 0, function() {
                     this.mainView.hide()
                     this.introView.$ele.fadeTo(1000,1)
+                    // this.chatBtnView.$ele.fadeTo(1000,1) // ----------> 챗봇 버튼 
                     // this.mainText.$ele.fadeTo(1000, 1)
                     // this.mainText.setText('어떤 차량을 찾으시나요?')
                     // this.mainBtn.$ele.fadeTo(1000,1)
@@ -526,5 +582,31 @@ MainView = class MainView extends AView
             this.carYearImage.$ele.fadeTo(500,1)
         }.bind(this))
     }
+
+    
+	onchatBtnClick(comp, info, e)
+	{
+
+		//TODO:edit here
+      
+        const wnd = new AWindow('chatWindow');
+
+        // 윈도우 옵션을 설정합니다. (옵션은 필요에 따라 조정하세요)
+        wnd.setWindowOption({
+            isModal: true,             // 모달로 띄울지 여부
+            isDraggable: true,         // 드래그 가능 여부
+            isResizable: true          // 리사이즈 가능 여부
+        });
+
+        // WN_chat.lay 파일을 오픈합니다.
+        // open 함수는 비동기이므로 then을 사용하여 로드 완료 후 작업을 수행할 수 있습니다.
+        wnd.open('Source/windows/WN_chat.lay', null, 100, 100, 400, 300).then(() => {
+            // 윈도우가 로드된 후 추가 작업을 수행할 수 있습니다.
+            var view = wnd.getView();
+            // 예: 특정 컴포넌트의 텍스트를 설정
+            // view.someComponent.setText('Hello, World!');
+        });
+
+	}
 }
 
