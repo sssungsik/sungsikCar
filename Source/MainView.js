@@ -14,51 +14,50 @@ MainView = class MainView extends AView
         /*
         { company : "genesis", name : "EQ900L", pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20210524_21%2Fauto_1621816203059aFjc0_PNG%2F20210524092812_UMfkVcKB.png"},
         { company : "genesis", name : "EQ900", pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20210524_153%2Fauto_1621816491077bS1tu_PNG%2F20210524093427_JigfANZf.png"},
+        
+        
         */
-        { company : "genesis", name : "G90 LWB", pic : "Assets/carLogos/genesis/aaa.png", year : { 
-            2019 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200128_56%2Fauto_1580191033736FMpg9_PNG%2F20200128145711_ROl9jcAR.png"}, 
-            2020 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20201214_243%2Fauto_1607924362360bd3y4_PNG%2F20201214143907_dlc866GD.png"},
-            2021 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200626_70%2Fauto_1593151681603D2PSa_PNG%2F20200626150700_huPUOjhS.png"},
-            2022 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20211214_182%2Fauto_163944496799798by8_PNG%2F20211214102237_s8eSKKgG.png"
-            }, 2023 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230324_160%2Fauto_1679619181182yY3SC_PNG%2F20230324095253_Je3OVM6Z.png"
-            }, 2024 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240321_124%2Fauto_1710984884107Qk75x_PNG%2F20240321103437_U1QpcxoH.png"
-            }        }},
-        { company : "genesis", name : "G90", pic : "Assets/carLogos/genesis/g90.png", year : { 
-            2019 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190825_151%2Fauto_15666923148746cOYI_PNG%2F20190825091832_uOu7fPc4.png"}, 
-            2020 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20201214_147%2Fauto_1607923082253G5fTz_PNG%2F20201214141745_GoqrLWk4.png"},
-            2021 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200626_198%2Fauto_15931521656305d3CK_PNG%2F20200626151556_9h2BMYs8.png"},
-            2022 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230324_160%2Fauto_1679624211298KSP3A_PNG%2F20230324111649_zFrLJhKb.png"
-            }, 2023 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230324_34%2Fauto_1679624237978NqBmN_PNG%2F20230324111716_eahK4pa8.png"
-            }, 2024 : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240321_37%2Fauto_1710985403628e0sDy_PNG%2F20240321104315_nN8nvjKl.png"
-            }        }},
         /*
         { company : "genesis", name : "GV80 쿠페", pic : "Assets/carLogos/genesis/gv80co.png"},
         { company : "genesis", name : "GV80", pic : "Assets/carLogos/genesis/gv80.png"},
         { company : "genesis", name : "G80 일렉트리파이드", pic : "Assets/carLogos/genesis/G80ele.png"},
         */
         { company : "genesis", name : "G80", pic : "Assets/carLogos/genesis/g80.png", year : { 
-            '2016~2019' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190926_131%2Fauto_1569458635496zLM6t_PNG%2F20190926094353_y8rpMJnB.png"
+            'G80 (16~20년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190926_205%2Fauto_1569458601361cYc9z_PNG%2F20190926094317_foU3MaFj.png"
             },
-            '2020~2023' : {
+            'G80 (20~23년)' : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20221025_292%2Fauto_1666673748189LmvuP_PNG%2F20221025135539_1Xe2RUJ8.png"
             },
-            '2024~2025' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20250108_244%2Fauto_1736299553101HbvpA_PNG%2F20250108102545_hoQ92ZMp.png"
-            }     
-            }},
+            'G80 일렉트리파이드 (21~24년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240905_9%2Fauto_1725496695326OzYDS_PNG%2F20240905093758_WWyaLyaR.png"
+            },
+            'G80 (23년~현재)' : {
+                pic : 'https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20250108_244%2Fauto_1736299553101HbvpA_PNG%2F20250108102545_hoQ92ZMp.png'
+            },
+            'G80 일렉트리파이드 (24년~현재)' : {
+                pic : 'https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240905_68%2Fauto_1725499122589jOh0t_PNG%2F20240905101841_M2mc68A0.png'
+            }
+            }
+        },
+        { company : "genesis", name : "G90", pic : "Assets/carLogos/genesis/g90.png", year : { 
+            'G90 (18~21년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200626_198%2Fauto_15931521656305d3CK_PNG%2F20200626151556_9h2BMYs8.png"
+            }, 
+            'G90 (21년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240321_37%2Fauto_1710985403628e0sDy_PNG%2F20240321104315_nN8nvjKl.png"
+            }
+            }
+        },
+        { company : "genesis", name : "G90 LWB", pic : "Assets/carLogos/genesis/aaa.png", year : { 
+            'G90 L (18~22년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200626_70%2Fauto_1593151681603D2PSa_PNG%2F20200626150700_huPUOjhS.png"
+            }, 
+            'G90 LWB (22년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240321_124%2Fauto_1710984884107Qk75x_PNG%2F20240321103437_U1QpcxoH.png"
+            }      
+            }
+        },
         /*    
         { company : "genesis", name : "GV70 일렉트리파이드", pic : "Assets/carLogos/genesis/gv70ele.png"},
         { company : "genesis", name : "GV70", pic : "Assets/carLogos/genesis/gv70.png"},
@@ -74,56 +73,54 @@ MainView = class MainView extends AView
         { company : "hyundai", name : "스타리아", pic : "Assets/carLogos/hyundai/staria.png"},
         */
         { company : "hyundai", name : "아반떼", pic : "Assets/carLogos/hyundai/avante.png", year : {
-            '더 뉴 아반떼 N' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240620_283%2Fauto_1718854576553nXdge_PNG%2F20240620123603_KZq5T8bH.png"
-            },
-            '더 뉴 아반떼CN7 하이브리드' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240620_44%2Fauto_1718855782188YnQsc_PNG%2F20240620125612_Qn89gP75.png"
-            },
-            '더 뉴 아반떼CN7' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240620_28%2Fauto_1718855596130QOJmC_PNG%2F20240620125307_7lHTuB3f.png"
-            },
-            '아반떼 N' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230726_192%2Fauto_1690333112161X0PjQ_PNG%2F20230726095821_A52Adpb2.png"
-            },
-            '아반떼CN7 하이브리드' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230313_290%2Fauto_1678670204982c6Ipw_PNG%2F20230313101636_SDg346JM.png"
-            },
-            '아반떼CN7' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230227_141%2Fauto_16774720478768lEh4_PNG%2F20230227132719_LRVXZYqG.png"
-            },
-            '더 뉴 아반떼AD' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190827_234%2Fauto_1566888481406l1Sjj_PNG%2F20190827154759_ARghztls.png"
-            },
-            '아반떼AD' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200326_122%2Fauto_1585186654163tBc2B_PNG%2F20200326103724_lOI3t1Ek.png"
-            },
-            '더 뉴 아반떼MD' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_204%2Fauto_1577754557329zPpEi_PNG%2F20191231100915_rGueCGgf.png"
-            },
-            '아반떼MD' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170529_203%2Fauto_1496048340535qcU4A_PNG%2F18435_2013_.png"
-            },
-            '아반떼HD 하이브리드' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200813_18%2Fauto_1597285407948xNHLf_PNG%2F20200813112326_JLfYj24I.png"
-            },
-            '아반떼HD' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170530_146%2Fauto_1496110846839Bc10R_PNG%2F10253_2010_.png"
-            },
-            '뉴 아반떼XD' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_16%2Fauto_1497939473146E2BgJ_PNG%2F11239_2008_HD.png"
-            },
-            '아반떼XD' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_205%2Fauto_1497939454053TujKI_PNG%2F12468_2006_XD_.png"
+            '아반떼' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_44%2Fauto_1577755415630KI2Nr_PNG%2F20191231102333_c7r4oTd6.png"
             },
             '올 뉴 아반떼' : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_34%2Fauto_15777562220909kQ0x_PNG%2F20191231103644_PfrGIyD2.png"
             },
-            '아반떼' : {
-                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_44%2Fauto_1577755415630KI2Nr_PNG%2F20191231102333_c7r4oTd6.png"
+            '아반떼XD (00~03년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_205%2Fauto_1497939454053TujKI_PNG%2F12468_2006_XD_.png"
             },
-
-
+            '뉴 아반떼XD (03~06년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_16%2Fauto_1497939473146E2BgJ_PNG%2F11239_2008_HD.png"
+            },
+            '아반떼HD (06~10년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170530_146%2Fauto_1496110846839Bc10R_PNG%2F10253_2010_.png"
+            },
+            '아반떼HD 하이브리드 (09~13년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200813_18%2Fauto_1597285407948xNHLf_PNG%2F20200813112326_JLfYj24I.png"
+            },
+            '아반떼MD (10~13년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170529_203%2Fauto_1496048340535qcU4A_PNG%2F18435_2013_.png"
+            },
+            '더 뉴 아반떼MD (13~15년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_204%2Fauto_1577754557329zPpEi_PNG%2F20191231100915_rGueCGgf.png"
+            },
+            '아반떼AD (15~18년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200326_122%2Fauto_1585186654163tBc2B_PNG%2F20200326103724_lOI3t1Ek.png"
+            },
+            '더 뉴 아반떼AD (18~20년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190827_234%2Fauto_1566888481406l1Sjj_PNG%2F20190827154759_ARghztls.png"
+            },
+            '아반떼CN7 (20~23년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230227_141%2Fauto_16774720478768lEh4_PNG%2F20230227132719_LRVXZYqG.png"
+            },
+            '아반떼CN7 하이브리드 (20~23년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230313_290%2Fauto_1678670204982c6Ipw_PNG%2F20230313101636_SDg346JM.png"
+            },
+            '아반떼 N (21~23년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230726_192%2Fauto_1690333112161X0PjQ_PNG%2F20230726095821_A52Adpb2.png"
+            },
+            '더 뉴 아반떼CN7 (23년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240620_28%2Fauto_1718855596130QOJmC_PNG%2F20240620125307_7lHTuB3f.png"
+            },
+            '더 뉴 아반떼CN7 하이브리드 (23년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240620_44%2Fauto_1718855782188YnQsc_PNG%2F20240620125612_Qn89gP75.png"
+            },
+            '더 뉴 아반떼 N (23년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240620_283%2Fauto_1718854576553nXdge_PNG%2F20240620123603_KZq5T8bH.png"
+            }
         }},
         /*
         { company : "hyundai", name : "코나", pic : "Assets/carLogos/hyundai/kona.png"},
@@ -140,7 +137,42 @@ MainView = class MainView extends AView
         }},
 
         // ----------------------------기아----------------------------------
-        { company : "kia", name : "스포티지", pic : "Assets/carLogos/kia/sportge.png"},
+        { company : "kia", name : "스포티지", pic : "Assets/carLogos/kia/sportge.png", year : {
+            '스포티지 (93년)' : {
+                pic : 'https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_167%2Fauto_1497940028413AxRn5_PNG%2F16588_1993_.png'
+            },
+            '스포티지 아멕스 (01년)' : {
+                pic : 'https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_226%2Fauto_1497939849013X6kQd_PNG%2F13466_2001_.png'
+            },
+            '뉴 스포티지 (04~10년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190901_148%2Fauto_1567306704868NBetn_PNG%2F20190901115822_oprPvKYK.png"
+            },
+            '스포티지 R (10~13년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170529_277%2Fauto_1496048265022mQ0Cc_PNG%2F18399_2013_R.png"
+            },
+            '더 뉴 스포티지 R (13~15년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170529_290%2Fauto_1496048933286mQBOm_PNG%2F41729_2014_R.png"
+            },
+            '스포티지 4세대 (15~18년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170523_256%2Fauto_1495542609691KNDR2_PNG%2F65843_2017_.png"
+            },
+            '스포티지 더 볼드 (18~21년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20190826_172%2Fauto_15668043184557lSRN_PNG%2F20190826162516_Gpr17mZ5.png"
+            },
+            '디 올 뉴 스포티지 하이브리드 (21~24년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20210720_116%2Fauto_1626745439680XLzQx_PNG%2F20210720104358_bybrLGa8.png"
+            },
+            '디 올 뉴 스포티지 (21~24년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20210706_234%2Fauto_1625534646981vFK4b_PNG%2F20210706102405_T7Iby7Ag.png"
+            },
+            '더 뉴 스포티지 하이브리드 (24년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20241105_288%2Fauto_1730782420020HRsjd_PNG%2F20241105135331_EhWRQAh8.png"
+            },
+            '더 뉴 스포티지 (24년 ~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20241105_183%2Fauto_17307851635384INzp_PNG%2F20241105143915_n3XV3FdC.png"
+            }
+        }},
+        /*
         { company : "kia", name : "니로 하이브리드", pic : "Assets/carLogos/kia/nirohy.png"},
         { company : "kia", name : "레이 EV", pic : "Assets/carLogos/kia/layev.png"},
         { company : "kia", name : "K5", pic : "Assets/carLogos/kia/k5.png"},
@@ -169,7 +201,7 @@ MainView = class MainView extends AView
         { company : "ssang", name : "렉스턴 스포츠", pic : "Assets/carLogos/ssang/rexsport.png"},
         { company : "ssang", name : "코란도", pic : "Assets/carLogos/ssang/corando.png"},
         { company : "ssang", name : "티볼리", pic : "Assets/carLogos/ssang/tivol.png"},
-
+        /*
         // ----------------------------롤스로이스----------------------------------
         /*
         { company : "rolls", name : "팬텀 EWB", pic : "Assets/carLogos/rolls/phantomEWB.png"},
