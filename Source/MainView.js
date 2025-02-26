@@ -184,7 +184,14 @@ MainView = class MainView extends AView
 
 
         // -----------------------------르노 ---------------------------------
-        { company : "rno", name : "마스터", pic : "Assets/carLogos/rno/master.png"},
+        { company : "rno", name : "그랑 콜레오스", pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240718_295%2Fauto_1721268683423ue9zk_PNG%2F20240718111122_nn4DGce6.png", year : {
+            '그랑 콜레오스 (24년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240718_295%2Fauto_1721268683423ue9zk_PNG%2F20240718111122_nn4DGce6.png"
+            },
+            '그랑 콜레오스 하이브리드(24년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240718_182%2Fauto_1721268613529xF9Du_PNG%2F20240718111012_tZkLPdAV.png"
+            }
+        }},
 
 
         // -----------------------------쉐보레-----------------------------------
