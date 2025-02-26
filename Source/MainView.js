@@ -180,12 +180,24 @@ MainView = class MainView extends AView
         { company : "kia", name : "봉고3", pic : "Assets/carLogos/kia/bonggo.png"},
         { company : "kia", name : "레이", pic : "Assets/carLogos/kia/lay.png"},
         { company : "kia", name : "모닝", pic : "Assets/carLogos/kia/moning.png"},
+        */
 
 
         // -----------------------------르노 ---------------------------------
         { company : "rno", name : "마스터", pic : "Assets/carLogos/rno/master.png"},
 
+
         // -----------------------------쉐보레-----------------------------------
+        { company : "chev", name : "토스카", pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_48%2Fauto_1497939366894HclSf_PNG%2F12360_2006_.png", year : {
+            '토스카 (06~08년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_228%2Fauto_1497939430531ASPdk_PNG%2F11722_2007_.png"
+            },
+            '토스카 프리미엄 (08~11년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170530_102%2Fauto_1496110805673hsJ9u_PNG%2F10141_2010_.png"
+            }
+        }},
+
+        /*
         { company : "chev", name : "타호", pic : "Assets/carLogos/chev/taho.png"},
         { company : "chev", name : "콜로라도", pic : "Assets/carLogos/chev/cololado.png"},
         { company : "chev", name : "트레버스", pic : "Assets/carLogos/chev/trabus.png"},
@@ -201,9 +213,11 @@ MainView = class MainView extends AView
         { company : "ssang", name : "렉스턴 스포츠", pic : "Assets/carLogos/ssang/rexsport.png"},
         { company : "ssang", name : "코란도", pic : "Assets/carLogos/ssang/corando.png"},
         { company : "ssang", name : "티볼리", pic : "Assets/carLogos/ssang/tivol.png"},
+        */
+
         /*
         // ----------------------------롤스로이스----------------------------------
-        /*
+       
         { company : "rolls", name : "팬텀 EWB", pic : "Assets/carLogos/rolls/phantomEWB.png"},
         */
         { company : "rolls", name : "팬텀", pic : "Assets/carLogos/rolls/phantom.png", year : {
