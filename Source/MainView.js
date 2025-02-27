@@ -210,8 +210,23 @@ MainView = class MainView extends AView
         { company : "chev", name : "트레버스", pic : "Assets/carLogos/chev/trabus.png"},
         { company : "chev", name : "트레일블레이저", pic : "Assets/carLogos/chev/trail.png"},
         { company : "chev", name : "트랙스 크로스오버", pic : "Assets/carLogos/chev/traxcross.png"},
+        */
 
         // ------------------------------쌍용--------------------------------------------
+        { company : "ssang", name : "토레스", pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20250221_213%2Fauto_1740099606643WdViX_PNG%2F20250221095955_GbPrQkp9.png", year : {
+            '토레스 (22~24년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230911_256%2Fauto_1694404591011NnXcS_PNG%2F20230911125508_MwQ1Z9lB.png"
+            },
+            '토레스 EVX (23년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230920_162%2Fauto_1695169094687Q9kTm_PNG%2F20230920091812_YQ3sAltp.png"
+            },
+            '더 뉴 토레스 (24년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240508_223%2Fauto_1715142050200OfLPy_PNG%2F20240508132037_B6mtusGV.png"
+            }
+        }},
+
+
+        /*
         { company : "ssang", name : "렉스턴", pic : "Assets/carLogos/ssang/rex.png"},
         { company : "ssang", name : "토레스 EVX", pic : "Assets/carLogos/ssang/torresevx.png"},
         { company : "ssang", name : "코란도 EV", pic : "Assets/carLogos/ssang/corandoev.png"},
@@ -293,8 +308,9 @@ MainView = class MainView extends AView
 		super.init(context, evtListener)
 
 		//TODO:edit here
-        this.modellistView2.$ele.parent().css('overflow', 'auto')
+
         
+        this.modellistView2.$ele.parent().css('overflow', 'auto')
 
         this.modelListView.$ele.children().children().css('justify-content', 'center')
 	}
