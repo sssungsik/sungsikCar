@@ -294,6 +294,9 @@ MainView = class MainView extends AView
 
 		//TODO:edit here
         this.modellistView2.$ele.parent().css('overflow', 'auto')
+        
+
+        this.modelListView.$ele.children().children().css('justify-content', 'center')
 	}
 
 	onInitDone()

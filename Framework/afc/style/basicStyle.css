@@ -9,6 +9,12 @@ body
 */
 
 
+
+#modelListView .list_item_wrapper {
+       justify-content: center; /* 자식 요소들을 수평 중앙에 정렬합니다. */
+}
+
+
 [name="model_hover"] {
     transition: all 0.5s;
 }
