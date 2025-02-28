@@ -259,6 +259,21 @@ MainView = class MainView extends AView
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20221125_198%2Fauto_1669344146553I2Nki_PNG%2F20221125114217_eFl3hRkq.png"
             }
         }},
+
+        { company : "benz", name : 'A클래스', pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240729_169%2Fauto_1722225286205JBAOx_PNG%2F20240729125435_cK4wz8Sc.png", year : {
+            'A클래스 1세대 (97~04년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191120_53%2Fauto_1574213242555EvzFg_PNG%2F20191120102701_SNlpMH5w.png"
+            },
+            'A클래스 2세대 (04~12년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170530_118%2Fauto_1496110306381YNh1F_PNG%2F67513_2009__A.png"
+            },
+            'A클래스 3세대 (13~18년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20200209_294%2Fauto_1581253519399AMRnJ_PNG%2F20200209220517_6JLfoVBj.png"
+            },
+            'A클래스 4세대 (19년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240729_169%2Fauto_1722225286205JBAOx_PNG%2F20240729125435_cK4wz8Sc.png"
+            }
+        }},
         /*
         { company : "rolls", name : "컬리넌 블랙배지", pic : "Assets/carLogos/rolls/culiBlack.png"},
         { company : "rolls", name : "컬리넌", pic : "Assets/carLogos/rolls/culi.png"},
@@ -567,6 +582,24 @@ MainView = class MainView extends AView
 
     // --------------------------수입 제조사 클릭 -------------------------------------------
 
+    onBenzClick(comp, info, e)
+	{
+
+		//TODO:edit here
+		 this.aboardView.$ele.fadeTo(1000,0, function() {
+            this.aboardView.hide()
+            this.modelView.$ele.fadeTo(1000,1)
+
+            this.modelListView.removeAllItems()
+            this.carModels
+                .filter(item => item.company == 'benz')
+                .forEach(item => {
+                this.modelListView.addItem('Source/items/carModelList.lay', [item]); // 각 데이터를 아이템으로 추가
+            });
+        }.bind(this))
+
+	}
+
     onTslaClick(comp, info, e)
 	{
 
@@ -680,5 +713,7 @@ MainView = class MainView extends AView
         });
 
 	}
+
+
 }
 

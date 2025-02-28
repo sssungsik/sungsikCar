@@ -7,7 +7,7 @@ carYearList = class carYearList extends AView
 
 		//TODO:edit here
         this.data = null
-
+        this.selected = null
 	}
     setData(data) {
         this.data = data
@@ -22,6 +22,7 @@ carYearList = class carYearList extends AView
 		super.init(context, evtListener)
 
 		//TODO:edit here
+        
 
      
 	}

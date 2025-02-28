@@ -20,6 +20,16 @@ body
 }
 
 
+[name="carYearListView"] {
+    transition: all 0.5s;
+}
+
+[name="carYearListView"]:hover {
+    background-color: rgba(255,255,255,0.7);
+    color: rgb(78, 67, 118);
+    transition: all 0.5s;
+}
+
 
 [name="model_hover"]:hover {
     transition: all 0.5s;
