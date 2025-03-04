@@ -73,10 +73,10 @@ MainView = class MainView extends AView
         { company : "hyundai", name : "스타리아", pic : "Assets/carLogos/hyundai/staria.png"},
         */
         { company : "hyundai", name : "아반떼", pic : "Assets/carLogos/hyundai/avante.png", year : {
-            '아반떼' : {
+            '아반떼 (95~98년)' : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_44%2Fauto_1577755415630KI2Nr_PNG%2F20191231102333_c7r4oTd6.png"
             },
-            '올 뉴 아반떼' : {
+            '올 뉴 아반떼 (98~00년)' : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20191231_34%2Fauto_15777562220909kQ0x_PNG%2F20191231103644_PfrGIyD2.png"
             },
             '아반떼XD (00~03년)' : {
@@ -272,6 +272,29 @@ MainView = class MainView extends AView
             },
             'A클래스 4세대 (19년~현재)' : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240729_169%2Fauto_1722225286205JBAOx_PNG%2F20240729125435_cK4wz8Sc.png"
+            }
+        }},
+        { company : "bmw", name : '7시리즈', pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230830_199%2Fauto_1693382742750FQRTc_PNG%2F20230830170541_CuPzffKL.png", year : {
+            '1세대 E23 (77~87년)' : {
+                pic : "https://bmwyedek.com/image/catalog/BMW/Bmw%20Kasalar/BMW%20E23/BMW_E23_bmw_bmwyedek.png"
+            },
+            '2세대 E32 (87~94년)' : {
+                pic : "https://bmwyedek.com/image/catalog/BMW/Bmw%20Kasalar/BMW%20E32/bmw_e32_bmwyedek.png"
+            },
+            '3세대 E38 (94~02년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20201116_25%2Fauto_1605510608643D7d0W_PNG%2F20201116161006_U5r58AAQ.png"
+            },
+            '4세대 E65~68 (02~09년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20201116_95%2Fauto_1605510041029QoQip_PNG%2F20201116160039_PjAI0sJX.png"
+            },
+            '5세대 F01~02 (08~15년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20201013_212%2Fauto_16025728138115EEbj_PNG%2F20201013160652_jJjj8txe.png"
+            },
+            '6세대 G11~12 (15~22년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20201013_205%2Fauto_1602571903006MsE0l_PNG%2F20201013155141_Tig6dfhV.png"
+            },
+            '7세대 G70,G73 (22년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230830_199%2Fauto_1693382742750FQRTc_PNG%2F20230830170541_CuPzffKL.png"
             }
         }},
         /*
@@ -617,6 +640,24 @@ MainView = class MainView extends AView
         }.bind(this))
 
 	}
+
+    
+	onBmwClick(comp, info, e)
+	{
+
+		//TODO:edit here
+		 this.aboardView.$ele.fadeTo(1000,0, function() {
+            this.aboardView.hide()
+            this.modelView.$ele.fadeTo(1000,1)
+
+            this.modelListView.removeAllItems()
+            this.carModels
+                .filter(item => item.company == 'bmw')
+                .forEach(item => {
+                this.modelListView.addItem('Source/items/carModelList.lay', [item]); // 각 데이터를 아이템으로 추가
+            });
+        }.bind(this))
+	}
     
 	onRollsClick(comp, info, e)
 	{
@@ -713,6 +754,7 @@ MainView = class MainView extends AView
         });
 
 	}
+
 
 
 }
