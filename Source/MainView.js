@@ -389,7 +389,7 @@ MainView = class MainView extends AView
 
     onNoDataClick(comp, info, e)
     {
-        AToast.show('데이터 준비 중 입니다.')
+        AToast.show('준비 중 입니다.')
     }
 
 
@@ -757,5 +757,7 @@ MainView = class MainView extends AView
 
 
 
+
+	
 }
 
