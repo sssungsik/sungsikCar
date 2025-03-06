@@ -388,7 +388,7 @@ MainView = class MainView extends AView
                this.mainView.$ele.fadeTo(1000, 0, function() {
                     this.mainView.hide()
                     this.introView.$ele.fadeTo(1000,1)
-                    // this.chatBtnView.$ele.fadeTo(1000,1) // ----------> 챗봇 버튼 
+                    this.chatBtnView.$ele.fadeTo(1000,1) // ----------> 챗봇 버튼 
                     // this.mainText.$ele.fadeTo(1000, 1)
                     // this.mainText.setText('어떤 차량을 찾으시나요?')
                     // this.mainBtn.$ele.fadeTo(1000,1)
