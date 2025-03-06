@@ -274,6 +274,10 @@ MainView = class MainView extends AView
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20240729_169%2Fauto_1722225286205JBAOx_PNG%2F20240729125435_cK4wz8Sc.png"
             }
         }},
+
+
+
+
         { company : "bmw", name : '7시리즈', pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230830_199%2Fauto_1693382742750FQRTc_PNG%2F20230830170541_CuPzffKL.png", year : {
             '1세대 E23 (77~87년)' : {
                 pic : "https://bmwyedek.com/image/catalog/BMW/Bmw%20Kasalar/BMW%20E23/BMW_E23_bmw_bmwyedek.png"
@@ -296,6 +300,26 @@ MainView = class MainView extends AView
             '7세대 G70,G73 (22년~현재)' : {
                 pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20230830_199%2Fauto_1693382742750FQRTc_PNG%2F20230830170541_CuPzffKL.png"
             }
+        }},
+
+
+
+
+         { company : "audi", name : 'A8', pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20211103_85%2Fauto_1635916770064JQ3oc_PNG%2F20211103141917_DICWVJtU.png", year : { 
+            '2세대 D2 (94~02년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_253%2Fauto_1497939043038SEr5s_PNG%2F23954_1994__A8_%25281%2529.png"
+            },
+            '3세대 D3 (02~09년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170620_157%2Fauto_1497939741975tfpvl_PNG%2F67509_2003__A8L.png"
+            },
+            '4세대 D4 (09~17년)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=http%3A%2F%2Fimgauto.naver.com%2F20170529_190%2Fauto_1496048339257VydnD_PNG%2F18682_2013__A8.png"
+            },
+            '5세대 D5 (17년~현재)' : {
+                pic : "https://search.pstatic.net/common?type=f&size=298x140&quality=95&direct=true&ttype=input&src=https%3A%2F%2Fimgauto-phinf.pstatic.net%2F20211103_85%2Fauto_1635916770064JQ3oc_PNG%2F20211103141917_DICWVJtU.png"
+            }
+
+
         }},
         /*
         { company : "rolls", name : "컬리넌 블랙배지", pic : "Assets/carLogos/rolls/culiBlack.png"},
@@ -644,8 +668,6 @@ MainView = class MainView extends AView
     
 	onBmwClick(comp, info, e)
 	{
-
-		//TODO:edit here
 		 this.aboardView.$ele.fadeTo(1000,0, function() {
             this.aboardView.hide()
             this.modelView.$ele.fadeTo(1000,1)
@@ -659,6 +681,25 @@ MainView = class MainView extends AView
         }.bind(this))
 	}
     
+
+    onAudiClick(comp, info, e)
+	{
+
+		this.aboardView.$ele.fadeTo(1000,0, function() {
+            this.aboardView.hide()
+            this.modelView.$ele.fadeTo(1000,1)
+
+            this.modelListView.removeAllItems()
+            this.carModels
+                .filter(item => item.company == 'audi')
+                .forEach(item => {
+                this.modelListView.addItem('Source/items/carModelList.lay', [item]); // 각 데이터를 아이템으로 추가
+            });
+        }.bind(this))
+
+	}
+
+
 	onRollsClick(comp, info, e)
 	{
 		//TODO:edit here
@@ -673,7 +714,6 @@ MainView = class MainView extends AView
                 this.modelListView.addItem('Source/items/carModelList.lay', [item]); // 각 데이터를 아이템으로 추가
             });
         }.bind(this))
-
 
 	}
 
@@ -757,6 +797,8 @@ MainView = class MainView extends AView
 
 
 
+
+	
 
 	
 }
