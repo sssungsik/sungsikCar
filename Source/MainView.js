@@ -763,9 +763,9 @@ MainView = class MainView extends AView
 
 
     onCarYearClick(uri) {
-        this.carYearImage.$ele.fadeTo(500,0.5, function() {
+        this.carYearImage.$ele.fadeTo(300,0.3, function() {
             this.carYearImage.setImage(uri)
-            this.carYearImage.$ele.fadeTo(500,1)
+            this.carYearImage.$ele.fadeTo(300,1)
         }.bind(this))
     }
 
