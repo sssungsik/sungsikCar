@@ -131,7 +131,13 @@ MainView = class MainView extends AView
         */
         // ----------------------------현대화물----------------------------------
         { company : "hyundaiTruck", name : "더 뉴 마이티", pic : "https://www.hyundai.com/contents/repn-car/side-w/290x130-mighty.png", year : {
-            '전체' : {
+            '1세대 (86~98년)' : {
+                pic : "Assets/carLogos/hyundai/mt.png"
+            },
+            '2세대 (98~23년)' : {
+                pic : "https://www.etrucks.co.kr/data/bbsData/GOODS1_1657160017.png"
+            },
+            '3세대 (15년~현재)' : {
                 pic : "https://www.hyundai.com/contents/repn-car/side-w/290x130-mighty.png"
             }
         }},
