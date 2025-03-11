@@ -130,7 +130,7 @@ MainView = class MainView extends AView
         { company : "hyundai", name : "캐스퍼", pic : "Assets/carLogos/hyundai/casper.png"},
         */
         // ----------------------------현대화물----------------------------------
-        { company : "hyundaiTruck", name : "더 뉴 마이티", pic : "https://www.hyundai.com/contents/repn-car/side-w/290x130-mighty.png", year : {
+        { company : "hyundaiTruck", name : "마이티", pic : "https://www.hyundai.com/contents/repn-car/side-w/290x130-mighty.png", year : {
             '1세대 (86~98년)' : {
                 pic : "Assets/carLogos/hyundai/mt.png"
             },
