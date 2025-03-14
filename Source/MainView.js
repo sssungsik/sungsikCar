@@ -9,6 +9,7 @@ MainView = class MainView extends AView
        this.brand = '';
        this.carModels = [
 
+
         // ----------------제네시스--------------------------
         
         /*
